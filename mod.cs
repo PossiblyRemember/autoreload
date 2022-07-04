@@ -11,7 +11,6 @@ namespace Mod
         public static string ModTag = " <color=red>[PRMods]";
         public static string NameTag = " - <color=red>Possibly Remember";
         public static void Main()
-        //public static Vector2(-4, 0);
         {
             ModAPI.Register(
                 new Modification()
@@ -19,7 +18,7 @@ namespace Mod
                     OriginalItem = ModAPI.FindSpawnable("brick"),
                     NameOverride = "Spawn me!" + ModTag,
                     DescriptionOverride = "                                                                       hello" + NameTag,
-                    CategoryOverride = ModAPI.FindCategory("Living"),
+                    CategoryOverride = ModAPI.FindCategory("Entities"),
                     ThumbnailOverride = ModAPI.LoadSprite("sprites/item.png"),
                     AfterSpawn = (Instance) =>
                     {
@@ -32,9 +31,5 @@ namespace Mod
                 }
             );
         }
-    }
-    public class Reciever : object
-    {
-
     }
 }
