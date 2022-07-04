@@ -1,0 +1,17 @@
+{
+  "Name": "Keycard",
+  "Author": "Possibly Remember",
+  "Description": "Simple keycard mod, 5 different colors.",
+  "ModVersion": "1.0",
+  "GameVersion": "1.21+",
+  "ThumbnailPath": "sprites/thumbnail.png",
+  "EntryPoint": "Mod.Mod",
+  "Tags": [],
+  "Scripts": [
+    "mod.cs",
+    "guncomp.cs:"
+  ],
+  "Active": true,
+  "UGCIdentity": null,
+  "CreatorUGCIdentity": ""
+}
