@@ -39,6 +39,7 @@
   <ItemGroup>
     <Compile Include="mod.cs" />
 	<Compile Include="guncomp.cs" />
+	<Compile Include="gunbeh.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
