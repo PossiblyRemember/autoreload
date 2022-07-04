@@ -1,6 +1,6 @@
-# KeycardsMod
-Made for MrHush by request.
+# AutoReload
+Made by request.
 
-Adds Keycards and Keycard Recievers, if you have any requests put them in issues.
+Adds Stuff
 
 Also currently not finished
